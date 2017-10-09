@@ -1,0 +1,180 @@
+body {
+    /*background-color: #fff8e1;*/
+    margin: 0;
+}
+main {
+    font-family: roboto;
+}
+
+/******************** HEADER(S) ********************/
+header {
+    height: 10vh;
+    background-color: #ffc107;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.019);
+    z-index: 10;
+}
+div.header-title {
+    height: 100%;
+    width: 30vw;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+#header-title_padding {
+    padding: 27px 0;
+}
+span.header-title {
+    font-size: 3em;
+    color: RGBA(0,0,0,.67);
+}
+div.header-links {
+    height: 100%;
+    width: 35vw; /* calc(70vw - 20px) */
+    position: relative;
+    float: right;
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    background-color: white;
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 9000;
+}
+
+p {
+    margin-left: 10px;
+    font-family: Roboto;
+}
+span {
+    font-family: Roboto;
+    font-size: 20px;
+}
+h3 {
+    color: RGBA(0,0,0,.67);
+}
+.mdl-navigation__link {
+    padding: 0 1em;
+}
+a.events {
+    color: darkblue;
+    font-size: 1.2em;
+    margin: auto;
+    text-align: center;
+}
+
+.above-header {
+    height: 15vh;
+    background-color: white;
+}
+.above-header img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    margin-left: 15%;
+    height: 60%;
+}
+.above-header h3 {
+    position: absolute;
+    right: 15%;
+    top: .4cm;
+}
+
+/******************** REGISTER ********************/
+section.register {
+    height: 20vh;
+    background-color: white;
+    position: relative;
+}
+img.register {
+    height: 50%;
+    display: block;
+    position: absolute;
+    left: 20%;
+    top: 10vh; /*50%*/
+    
+    transform: translate(0, -50%);
+}
+
+/******************** EVENTS ********************/
+section.events {
+    height: 55vh;
+    /*background-color: antiquewhite;*/
+}
+img.events {
+    height: 100%;
+    width: 50%; /*55vw*/
+    float: left;
+}
+div.events {
+    float: right;
+    height: 100%;
+    width: 50%; /*calc(45vw - 20px);*/
+    background-color: antiquewhite;
+}
+
+section.calendar {
+    height: 35vh;
+}
+div.calendar {
+    float: left;
+    height: 100%;
+    width: 55vw;
+}
+img.calendar {
+    height: 100%;
+    width: calc(45vw - 20px);
+    float: right;
+}
+
+/******************** CLUBS ********************/
+section.clubs {
+    height: 90vh;
+    background-color: cornsilk;
+}
+h1.clubs {
+    text-align: center;
+    margin-top: 15vh;
+}
+img.clubs {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+}
+div.cubbies {
+    background-color: rgba(239,83,80,.7);
+    position: relative;
+    float: left;
+    height: 45vh;
+    width: 50%;
+}
+div.sparks {
+    background-color: rgba(100,181,246,.7);
+    position: relative;
+    float: right;
+    height: 45vh;
+    width: 50%;
+}
+div.tt {
+    background-color: rgba(129,199,132,.7);
+    position: relative;
+    float: left;
+    height: 45vh;
+    width: 50%;
+}
+div.youth {
+    background-color: rgba(255,238,88,.7);
+    position: relative;
+    float: right;
+    height: 45vh;
+    width: 50%;
+}
